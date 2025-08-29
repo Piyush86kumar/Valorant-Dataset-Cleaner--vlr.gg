@@ -1,0 +1,8 @@
+Upload datset first time :
+kaggle datasets create -p "C:\My Code\Val_Analysis\Dataset\Dataset-Cleaner\Dataset_upload" --dir-mode zip
+
+Update dataset in already existing kaggle dataset:
+kaggle datasets version -p "C:\My Code\Val_Analysis\Dataset\Dataset-Cleaner\Dataset_upload" -m "Update with multi-region data" --dir-mode zip
+
+
+Note: make sure id and title in dataset-metadata.json file is updated 

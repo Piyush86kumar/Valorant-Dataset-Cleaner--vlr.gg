@@ -1,0 +1,32 @@
+{
+  "title": "Valorant Masters Toronto 2025 player & match data",
+  "id": "piyush86kumar/Valorant-Masters-Toronto-2025",
+  "subtitle": "Valorant Masters Toronto 2025 tournament stats- player and matches data",
+  "description": "This dataset provides a comprehensive overview of a Valorant Masters Toronto 2025 event. It includes structured data covering matches, player statistics, map-level insights, agent usage, team economy, and performance benchmarks. The dataset is designed for esports analysts, data scientists, and enthusiasts who want to explore competitive strategies, player trends, and team dynamics.\n\nIncluded files:\n\n- **event_info.csv**: General event-level information (dates, prize pool, location).\n- **matches.csv**: All matches with high-level outcomes.\n- **player_stats.csv**: Aggregated player statistics (ACS, ADR, K/D ratio, clutches).\n- **maps_stats.csv**: Win percentages per map for Attackers and Defenders.\n- **agents_stats.csv**: Agent utilization and performance across maps.\n- **economy_data.csv**: Buy/economy round statistics per team.\n- **performance_data.csv**: Per-player, per-match benchmarks (2K, 3K, clutches, economy).\n- **detailed_matches_player_stats.csv**: Player stats broken down by match and map.\n- **detailed_matches_overview.csv**: High-level overview of each match (format, picks/bans, patch).\n- **detailed_matches_maps.csv**: Results for each map (score, winner, duration, picked_by).\n\nColumn-level descriptions are provided in the README.md file and in a structured `columns_description.csv` resource for convenience.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "Tabular",
+    "Sports",
+    "Data Analytics",
+    "Video Games",
+    "Data Visualization"
+  ],
+  "resources": [
+    {"path": "event_info.csv", "description": "General event-level information for the Valorant tournament."},
+    {"path": "matches.csv", "description": "A list of all matches played in the tournament with their high-level outcomes."},
+    {"path": "player_stats.csv", "description": "Aggregated player statistics across the entire tournament."},
+    {"path": "maps_stats.csv", "description": "Summary of map statistics, including win percentages for Attackers and Defenders."},
+    {"path": "agents_stats.csv", "description": "Summary of agent utilization and performance across the entire tournament."},
+    {"path": "economy_data.csv", "description": "Detailed economy and buy-round statistics for each team per map."},
+    {"path": "performance_data.csv", "description": "Overall performance benchmarks for players on a per-match basis."},
+    {"path": "detailed_matches_player_stats.csv", "description": "Detailed player statistics broken down by match and map."},
+    {"path": "detailed_matches_overview.csv", "description": "High-level overview of each match, including format and pick/ban information."},
+    {"path": "detailed_matches_maps.csv", "description": "Detailed results for each map played in a match."},
+    {"path": "columns_description.csv", "description": "Structured metadata with column-level descriptions for all CSV files."},
+    {"path": "README.md", "description": "Full documentation of dataset contents and column descriptions."}
+  ]
+}
