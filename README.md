@@ -32,7 +32,7 @@ To run this project locally, you will need to set up a Python virtual environmen
 
 1.  **Clone the repository:**
     ```bash
-    git clone <https://github.com/Piyush86kumar/Valorant-Dataset-Cleaner--vlr.gg.git>
+    git clone https://github.com/Piyush86kumar/Valorant-Dataset-Cleaner--vlr.gg.git
     ```
 
 2.  **Create a virtual environment:**
