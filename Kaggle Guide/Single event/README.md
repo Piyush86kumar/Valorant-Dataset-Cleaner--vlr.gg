@@ -175,6 +175,10 @@ Below are the details of each file and its columns.
 
 
 ---
+## 💡 Found this dataset useful?
+
+If this dataset helped you in your project or analysis, consider giving it an upvote on Kaggle to support its visibility.  
+Your feedback and suggestions are also welcome—feel free to leave a comment on the dataset page!
 
 ## Contribute Your Work
 

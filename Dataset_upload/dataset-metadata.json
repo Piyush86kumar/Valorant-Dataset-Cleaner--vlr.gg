@@ -1,8 +1,8 @@
 {
-  "title": "Valorant Masters Toronto 2025 player & match data",
-  "id": "piyush86kumar/Valorant-Masters-Toronto-2025",
-  "subtitle": "Valorant Masters Toronto 2025 tournament stats- player and matches data",
-  "description": "This dataset provides a comprehensive overview of a Valorant Masters Toronto 2025 event. It includes structured data covering matches, player statistics, map-level insights, agent usage, team economy, and performance benchmarks. The dataset is designed for esports analysts, data scientists, and enthusiasts who want to explore competitive strategies, player trends, and team dynamics.\n\nIncluded files:\n\n- **event_info.csv**: General event-level information (dates, prize pool, location).\n- **matches.csv**: All matches with high-level outcomes.\n- **player_stats.csv**: Aggregated player statistics (ACS, ADR, K/D ratio, clutches).\n- **maps_stats.csv**: Win percentages per map for Attackers and Defenders.\n- **agents_stats.csv**: Agent utilization and performance across maps.\n- **economy_data.csv**: Buy/economy round statistics per team.\n- **performance_data.csv**: Per-player, per-match benchmarks (2K, 3K, clutches, economy).\n- **detailed_matches_player_stats.csv**: Player stats broken down by match and map.\n- **detailed_matches_overview.csv**: High-level overview of each match (format, picks/bans, patch).\n- **detailed_matches_maps.csv**: Results for each map (score, winner, duration, picked_by).\n\nColumn-level descriptions are provided in the README.md file and in a structured `columns_description.csv` resource for convenience.",
+  "title": "Valorant VCT 2025 Stage 2 - All Regions",
+  "id": "piyush86kumar/valorant-stage-2-2025-all-regions",
+  "subtitle": "VCT Stage 2 events of the Valorant Champions Tour 2025 across all regions",
+  "description": "This dataset provides a comprehensive overview of the Valorant Champions Tour (VCT) 2025 Stage 2 events across all regions (Americas, China, EMEA, Pacific). It includes structured data covering matches, player statistics, map-level insights, agent usage, team economy, and performance benchmarks. The dataset is designed for esports analysts, data scientists, and enthusiasts who want to explore competitive strategies, player trends, and team dynamics.\n\nEach subfolder corresponds to a regional Kickoff event and contains the following files:\n\n- **event_info.csv**: General event-level information (dates, prize pool, location).\n- **matches.csv**: All matches with high-level outcomes.\n- **player_stats.csv**: Aggregated player statistics (ACS, ADR, K/D ratio, clutches).\n- **maps_stats.csv**: Win percentages per map for Attackers and Defenders.\n- **agents_stats.csv**: Agent utilization and performance across maps.\n- **economy_data.csv**: Buy/economy round statistics per team.\n- **performance_data.csv**: Per-player, per-match benchmarks (2K, 3K, clutches, economy).\n- **detailed_matches_player_stats.csv**: Player stats broken down by match and map.\n- **detailed_matches_overview.csv**: High-level overview of each match (format, picks/bans, patch).\n- **detailed_matches_maps.csv**: Results for each map (score, winner, duration, picked_by).\n\n Note: For Chinese regional events, significant amount of data is not available on vlr.gg, Hence some csv files might be missing, or columns will be empty\n\n Column-level descriptions are provided in the README.md file and in a structured `columns_description.csv` resource for convenience.\n\n If this dataset helped you in your project or analysis, consider giving it an upvote on Kaggle to support its visibility.",
   "licenses": [
     {
       "name": "CC-BY-4.0"
@@ -16,16 +16,48 @@
     "Data Visualization"
   ],
   "resources": [
-    {"path": "event_info.csv", "description": "General event-level information for the Valorant tournament."},
-    {"path": "matches.csv", "description": "A list of all matches played in the tournament with their high-level outcomes."},
-    {"path": "player_stats.csv", "description": "Aggregated player statistics across the entire tournament."},
-    {"path": "maps_stats.csv", "description": "Summary of map statistics, including win percentages for Attackers and Defenders."},
-    {"path": "agents_stats.csv", "description": "Summary of agent utilization and performance across the entire tournament."},
-    {"path": "economy_data.csv", "description": "Detailed economy and buy-round statistics for each team per map."},
-    {"path": "performance_data.csv", "description": "Overall performance benchmarks for players on a per-match basis."},
-    {"path": "detailed_matches_player_stats.csv", "description": "Detailed player statistics broken down by match and map."},
-    {"path": "detailed_matches_overview.csv", "description": "High-level overview of each match, including format and pick/ban information."},
-    {"path": "detailed_matches_maps.csv", "description": "Detailed results for each map played in a match."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/event_info.csv", "description": "Americas Kickoff - Event information."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/matches.csv", "description": "Americas Kickoff - Match outcomes."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/player_stats.csv", "description": "Americas Kickoff - Player statistics."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/maps_stats.csv", "description": "Americas Kickoff - Map statistics."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/agents_stats.csv", "description": "Americas Kickoff - Agent statistics."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/economy_data.csv", "description": "Americas Kickoff - Team economy statistics."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/performance_data.csv", "description": "Americas Kickoff - Player performance benchmarks."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/detailed_matches_player_stats.csv", "description": "Americas Kickoff - Detailed player match statistics."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/detailed_matches_overview.csv", "description": "Americas Kickoff - Match overviews."},
+    {"path": "VCT 2025 Americas Stage 2_csvs/detailed_matches_maps.csv", "description": "Americas Kickoff - Detailed map results."},
+
+    {"path": "VCT 2025 China Stage 2_csvs/event_info.csv", "description": "China Kickoff - Event information."},
+    {"path": "VCT 2025 China Stage 2_csvs/matches.csv", "description": "China Kickoff - Match outcomes."},
+    {"path": "VCT 2025 China Stage 2_csvs/player_stats.csv", "description": "China Kickoff - Player statistics."},
+    {"path": "VCT 2025 China Stage 2_csvs/maps_stats.csv", "description": "China Kickoff - Map statistics."},
+    {"path": "VCT 2025 China Stage 2_csvs/agents_stats.csv", "description": "China Kickoff - Agent statistics."},
+    {"path": "VCT 2025 China Stage 2_csvs/detailed_matches_player_stats.csv", "description": "China Kickoff - Detailed player match statistics."},
+    {"path": "VCT 2025 China Stage 2_csvs/detailed_matches_overview.csv", "description": "China Kickoff - Match overviews."},
+    {"path": "VCT 2025 China Stage 2_csvs/detailed_matches_maps.csv", "description": "China Kickoff - Detailed map results."},
+
+    {"path": "VCT 2025 EMEA Stage 2_csvs/event_info.csv", "description": "EMEA Kickoff - Event information."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/matches.csv", "description": "EMEA Kickoff - Match outcomes."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/player_stats.csv", "description": "EMEA Kickoff - Player statistics."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/maps_stats.csv", "description": "EMEA Kickoff - Map statistics."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/agents_stats.csv", "description": "EMEA Kickoff - Agent statistics."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/economy_data.csv", "description": "EMEA Kickoff - Team economy statistics."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/performance_data.csv", "description": "EMEA Kickoff - Player performance benchmarks."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/detailed_matches_player_stats.csv", "description": "EMEA Kickoff - Detailed player match statistics."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/detailed_matches_overview.csv", "description": "EMEA Kickoff - Match overviews."},
+    {"path": "VCT 2025 EMEA Stage 2_csvs/detailed_matches_maps.csv", "description": "EMEA Kickoff - Detailed map results."},
+
+    {"path": "VCT 2025 Pacific Stage 2_csvs/event_info.csv", "description": "Pacific Kickoff - Event information."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/matches.csv", "description": "Pacific Kickoff - Match outcomes."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/player_stats.csv", "description": "Pacific Kickoff - Player statistics."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/maps_stats.csv", "description": "Pacific Kickoff - Map statistics."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/agents_stats.csv", "description": "Pacific Kickoff - Agent statistics."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/economy_data.csv", "description": "Pacific Kickoff - Team economy statistics."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/performance_data.csv", "description": "Pacific Kickoff - Player performance benchmarks."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/detailed_matches_player_stats.csv", "description": "Pacific Kickoff - Detailed player match statistics."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/detailed_matches_overview.csv", "description": "Pacific Kickoff - Match overviews."},
+    {"path": "VCT 2025 Pacific Stage 2_csvs/detailed_matches_maps.csv", "description": "Pacific Kickoff - Detailed map results."},
+
     {"path": "columns_description.csv", "description": "Structured metadata with column-level descriptions for all CSV files."},
     {"path": "README.md", "description": "Full documentation of dataset contents and column descriptions."}
   ]

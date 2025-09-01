@@ -1,9 +1,10 @@
-# Valorant Masters Bangkok 2025
+# Valorant - VCT Stage 2 2025 - All Regions Data
 
-This dataset covers the Valorant Masters Bangkok 2025 tournament.
+This dataset covers the Valorant Champions Tour tournament.
 
 Below are the details of each file and its columns.
 
+Note: For Chinese regional events, significant amount of data is not available on vlr.gg, Hence some csv files might be missing, or columns will be empty
 
 ## event_info.csv
 

@@ -1,4 +1,4 @@
-# Valorant - VCT Stage 1 2025 - All Regions Data
+# Valorant - VCT Stage 2 2025 - All Regions Data
 
 This dataset covers the Valorant Champions Tour tournament.
 
@@ -176,6 +176,11 @@ Note: For Chinese regional events, significant amount of data is not available o
 
 
 ---
+## 💡 Found this dataset useful?
+
+If this dataset helped you in your project or analysis, consider giving it an upvote on Kaggle to support its visibility.  
+Your feedback and suggestions are also welcome—feel free to leave a comment on the dataset page!
+
 
 ## Contribute Your Work
 
